@@ -17,6 +17,7 @@ function insertCss() {
 
 function toggleView() {
     var board = document.getElementById('board');
+    var listWrappers = document.getElementsByClassName('list-wrapper');
 
     if (!board.classList.contains(classMixed)) {
         if (!board.classList.contains(classVertical)) {
@@ -26,10 +27,18 @@ function toggleView() {
             board.classList.remove(classVertical);
             chrome.storage.sync.remove('classList');
         }
+        
+        for (var i = 0; i < listWrappers.length; i++)
+            listWrappers[i].classList.add("list-2x");
+           
     } else {
         board.classList.remove(classMixed);
         board.classList.add(classVertical);
         chrome.storage.sync.set({'classList': classVertical});
+        
+        for (var i = 0; i < listWrappers.length; i++)
+            listWrappers[i].classList.remove("list-2x");
+
     }
 }
 

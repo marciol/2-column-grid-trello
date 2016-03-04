@@ -25,3 +25,22 @@
 #board.layout-trello-mixed .js-list-content {
     max-height: 40vh;
 }
+
+.js-list.list-wrapper.2x-list {
+    width: 540px;
+}
+
+.js-list.list-wrapper.list-2x {
+    width: 540px;
+}
+
+.js-list.list-wrapper.list-2x .list-card {
+    float: left;
+    min-width: 250px;
+    margin-left: 6px;
+}
+
+.js-list.list-wrapper.list-2x .cc-controls {
+    clear: both;
+    margin-left: 6px;
+}
