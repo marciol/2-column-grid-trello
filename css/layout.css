@@ -26,12 +26,8 @@
     max-height: 40vh;
 }
 
-.js-list.list-wrapper.2x-list {
-    width: 540px;
-}
-
 .js-list.list-wrapper.list-2x {
-    width: 540px;
+    width: calc(50% - 15px);
 }
 
 .js-list.list-wrapper.list-2x .list-card {
