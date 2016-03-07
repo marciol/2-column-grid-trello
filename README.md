@@ -8,7 +8,7 @@ The 2 Column grid for Trello extension adds a button to your Trello board pages 
 Installation
 ------------
 
-1. Download the release at https://github.com/marciol/layout-trello/releases/tag/v1.0.1
+1. Download the release at https://github.com/marciol/layout-trello/releases/tag/v1.0.2
   
 2. Unpack the ```zip``` or ```tar.gz``` file
   
